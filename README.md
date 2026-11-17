@@ -363,12 +363,6 @@ Create a script:
 
     nano run.sh
 
-Example:
-
-    #!/bin/bash
-
-    pw.x < scf.in > scf.out
-
 Make it executable:
 
     chmod +x run.sh
