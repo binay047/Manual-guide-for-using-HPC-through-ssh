@@ -305,6 +305,9 @@ Start a tmux session:
 Run the calculation:
 
     pw.x < scf.in > scf.out
+Run the calculation with full core:
+ 
+    mpirun --oversubscribe -np 48 pw.x <scf.in> scf.out   
 
 Detach from tmux:
 
